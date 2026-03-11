@@ -23,7 +23,7 @@ def process_line(line):
 
 def main():
 
-    with open("input.txt") as f:
+    with open("input.txt", encoding="utf-16") as f:
         for line in f:
             process_line(line)
 
